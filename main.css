@@ -34,6 +34,11 @@ nav .nav-right-section a
     margin-right: 10px;
     color: #000;
 }
+nav .nav-right-section a:hover
+{
+    text-decoration: underline;
+}
+
 nav .nav-right-section .menu-icon
 {
     background-image: url('https://static.thenounproject.com/png/756729-200.png');
@@ -42,6 +47,10 @@ nav .nav-right-section .menu-icon
     background-size: contain;
     width: 25px;
     height: 25px;
+}
+nav .nav-right-section .menu-icon:hover
+{
+    opacity: 1;
 }
 nav .nav-right-section img
 {
@@ -85,6 +94,7 @@ main .main-input input
     height: 40px;
     border: none;
     outline: none;
+    padding-left: 10px;
 }
 main .main-input-container:hover
 {
@@ -170,4 +180,8 @@ footer ul li a
 {
     margin: 10px;
     color: #70757a;
+}
+footer ul li a:hover
+{
+    text-decoration: underline;
 }
